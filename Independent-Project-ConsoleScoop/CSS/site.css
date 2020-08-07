@@ -1,0 +1,132 @@
+/**************Index Jumbotron**************/*
+.jumbotron{
+    position: relative;
+      overflow: hidden;
+      height: 200px;
+   
+    /* Tried setting the height. Didnt work either */
+    /* height: 200px; */
+  }
+ #jumboname {
+     position: relative;
+     color: black;
+     z-index: 2;
+     font-size: 5rem;
+ }
+  
+  #video-background{ 
+    position: absolute;
+    height: auto;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 1;
+  }
+/**************End Index Jumbotron****************/
+
+
+
+/********************XBOX PAGE***********************\
+/*xbox jumbotron*/
+#xJumbo {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/*End xbox jumbotron*/
+
+/*Xbox Youtube*/
+#xYou {
+  width: 125%;
+}
+/*End Xbox Youtube*/
+
+
+/*Xbox Twitter*/
+#xTwit {
+  width: 15%;
+}
+/*End Xbox Twitter*/
+/********************End XBOX PAGE***********************\
+
+
+
+/********************Playstation PAGE***********************\
+/*Playstation jumbotron*/
+#playJumbo {
+  background-color: rgb(9, 9, 143);
+  color: white;
+  text-align: center;
+}
+/*End Playstation jumbotron*/
+
+/*Playstation Youtube*/
+#pYou {
+  width: 125%;
+}
+/*End Playstation Youtube*/
+
+
+/*Playstation Twitter*/
+#pTwit {
+  width: 15%;
+}
+/*End Playstation Twitter*/
+/********************End Playstation PAGE***********************\
+
+
+
+
+
+/********************Nintendo PAGE***********************\
+/*Nintendo jumbotron*/
+#ninJumbo {
+  background-color: rgba(245, 0, 0, 0.808);
+  color: white;
+  text-align: center;
+}
+/*End Nintendo jumbotron*/
+
+/*Nintendo Youtube*/
+#nYou {
+  width: 125%;
+}
+/*End Nintendo Youtube*/
+
+
+/*Nintendo Twitter*/
+#nTwit {
+  width: 15%;
+}
+/*End Nintendo Twitter*/
+/********************End Nintendo PAGE***********************\
+
+
+/***************Footer**************/
+.footer {
+  position: flex;
+  padding-top: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+
+#playStationFooter {
+  background-color:"";
+}
+
+#xboxFooter {
+  background-color: "";
+}
+
+#nintendoFooter {
+  background-color: "";
+}
+/***************End Footer**************/
